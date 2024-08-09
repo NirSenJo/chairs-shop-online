@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass ./src/scss/index.scss ./src/css/index.css -w"
+    "sass": "sass ./src/scss/index.scss ./src/css/index.css -w",
+    "bro-sync": "browser-sync start --server --files '*/**'"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "browser-sync": "^3.0.2",
     "sass": "^1.77.8"
   }
 }
