@@ -1,0 +1,18 @@
+.callback-block{
+  display:flex;
+  align-items:center;
+  &__tel-num{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: $link-text-color;
+    margin-right: 40px;
+  }
+  &__callback-button{
+
+    border-color: $primary-first-bg-color !important;
+    background: $primary-fourth-bg-color;
+
+  }
+}
