@@ -1,0 +1,7 @@
+.products-layout{
+  display: flex;
+  justify-content: space-between;
+  & > .product-card:not(:last-child){
+    margin-right: 30px;
+  }
+}

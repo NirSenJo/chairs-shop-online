@@ -3,6 +3,7 @@ html {
   font-size: 10px;
   line-height: 10px;
   color: #000000;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -98,6 +99,35 @@ a:hover {
   outline: none;
   border: none;
 }
+.special-products {
+  background: #E5E5E5;
+}
+.special-products__wrapper {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.special-products__title {
+  margin: 40px 0;
+}
+
+.recently-watched-products {
+  background: #E5E5E5;
+}
+.recently-watched-products__wrapper {
+  padding: 80px 0;
+}
+.recently-watched-products__title {
+  margin-bottom: 40px;
+}
+
+.products-layout {
+  display: flex;
+  justify-content: space-between;
+}
+.products-layout > .product-card:not(:last-child) {
+  margin-right: 30px;
+}
+
 .callback-block {
   display: flex;
   align-items: center;
@@ -123,6 +153,48 @@ a:hover {
   font-size: 1.4rem;
   line-height: 1.6rem;
   cursor: pointer;
+}
+
+.product-card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+}
+.product-card__img {
+  height: 165px;
+  width: 80%;
+  padding: 20px 30px;
+  object-fit: contain;
+}
+.product-card__title {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #333333;
+  margin: 0 20px;
+}
+.product-card__price {
+  font-weight: 500;
+  font-size: 2.1rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.product-card__buy-button {
+  background: #F13C6E !important;
+  color: #ffffff !important;
+  border: none !important;
+}
+.product-card__img, .product-card__title, .product-card__price, .product-card__buy-button {
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  color: #000000;
 }
 
 /*font Roboto*/
