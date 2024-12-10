@@ -1,0 +1,64 @@
+$search-input-bg:#EFEFEF;
+$input-search-height:40px;
+.header{
+  &__wrapper{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 20px 0;
+    background: $primary-fourth-bg-color;
+  }
+  &__logo-block{
+    display: flex;
+    align-items: center;
+    &:hover{
+      text-decoration:none;
+    }
+
+  }
+  &__logo-img{
+    /* logo */
+
+    width: 80px;
+    height: 80px;
+
+
+  }
+  &__logo-title{
+    /* BEAUTY */
+
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 3.6rem;
+    line-height: 4.2rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $primary-first-bg-color;
+    margin-left: 20px;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+
+  &__search-block{
+    background: $search-input-bg;
+    border-radius: 40px;
+    display:flex;
+    align-items:center;
+    height:$input-search-height;
+  }
+  &__search-icon{
+    margin: 5px;
+    padding: 10px 20px;
+  }
+  &__search-input{
+    background: none;
+    outline:none;
+    border:none;
+  }
+  &__callback-block{
+
+  }
+
+}

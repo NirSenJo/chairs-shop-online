@@ -1,0 +1,9 @@
+.recently-watched-products{
+  background: $primary-second-bg-color;
+  &__wrapper{
+    padding: 80px 0;
+  }
+  &__title{
+    margin-bottom: 40px;
+  }
+}

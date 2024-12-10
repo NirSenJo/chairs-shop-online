@@ -1,0 +1,10 @@
+.special-products{
+  background: $primary-second-bg-color;
+  &__wrapper{
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+  &__title{
+    margin: 40px 0;
+  }
+}

@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+html {
+  font-size: 10px;
+  line-height: 10px;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.header-navigation {
+  background: #E5E5E5;
+  width: 100%;
+  height: 50px;
+  left: 0;
+  top: 0;
+}
+.header-navigation__link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  color: #333333;
+}
+.header-navigation__link:not(:last-child) {
+  margin-right: 30px;
+}
+.header-navigation__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 17px 0;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  background: #ffffff;
+}
+.header__logo-block {
+  display: flex;
+  align-items: center;
+}
+.header__logo-block:hover {
+  text-decoration: none;
+}
+.header__logo-img {
+  /* logo */
+  width: 80px;
+  height: 80px;
+}
+.header__logo-title {
+  /* BEAUTY */
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 3.6rem;
+  line-height: 4.2rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #F13C6E;
+  margin-left: 20px;
+}
+.header__logo-title:hover {
+  text-decoration: underline;
+}
+.header__search-block {
+  background: #EFEFEF;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+.header__search-icon {
+  margin: 5px;
+  padding: 10px 20px;
+}
+.header__search-input {
+  background: none;
+  outline: none;
+  border: none;
+}
+.special-products {
+  background: #E5E5E5;
+}
+.special-products__wrapper {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.special-products__title {
+  margin: 40px 0;
+}
+
+.recently-watched-products {
+  background: #E5E5E5;
+}
+.recently-watched-products__wrapper {
+  padding: 80px 0;
+}
+.recently-watched-products__title {
+  margin-bottom: 40px;
+}
+
+.super-product {
+  color: #ffffff;
+  background-image: url("../assets/super-product/sale.png");
+}
+.super-product__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 215px 0;
+}
+.super-product__main-info {
+  display: flex;
+  flex-direction: column;
+  max-width: 35%;
+}
+.super-product__title {
+  font-weight: bold;
+  font-size: 4.8rem !important;
+  line-height: 5.6rem;
+}
+.super-product__subtitle {
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+.super-product__button {
+  background: transparent;
+  border-color: #ffffff !important;
+  color: #ffffff !important;
+  max-width: 175px;
+}
+.super-product__title, .super-product__subtitle {
+  margin-bottom: 55px;
+}
+
+.products-layout {
+  display: flex;
+  justify-content: space-between;
+}
+.products-layout > .product-card:not(:last-child) {
+  margin-right: 30px;
+}
+
+.callback-block {
+  display: flex;
+  align-items: center;
+}
+.callback-block__tel-num {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #000000;
+  margin-right: 40px;
+}
+.callback-block__callback-button {
+  border-color: #F13C6E !important;
+  background: #ffffff;
+}
+
+.default-button {
+  color: #000000;
+  border-radius: 40px;
+  padding: 12px 25px;
+  border: 2px solid;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  cursor: pointer;
+}
+
+.product-card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+}
+.product-card__img {
+  height: 165px;
+  width: 80%;
+  padding: 20px 30px;
+  object-fit: contain;
+}
+.product-card__title {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #333333;
+  margin: 0 20px;
+}
+.product-card__price {
+  font-weight: 500;
+  font-size: 2.1rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.product-card__buy-button {
+  background: #F13C6E !important;
+  color: #ffffff !important;
+  border: none !important;
+}
+.product-card__img, .product-card__title, .product-card__price, .product-card__buy-button {
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  color: #000000;
+}
+
+/*font Roboto*/
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/*# sourceMappingURL=index.css.map */
